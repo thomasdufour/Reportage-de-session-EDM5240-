@@ -1,6 +1,8 @@
 # ©2018 Jean-Hugues Roy. GNU GPL v3.
 # coding: utf-8
 
+#Voici le code utilisé pour aller chercher toutes les éditions du Devoir et comptabiliser le nombre de fois où les différents pays étaient cités
+
 import csv, os, glob, requests, textract
 from stopwords import stop
 import nltk
