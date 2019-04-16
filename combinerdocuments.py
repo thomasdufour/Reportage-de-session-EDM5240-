@@ -3,6 +3,8 @@
 import csv
 import pandas as pd
 
+#Document utilisé pour combiné les différentes périodes sur lesquelles ont été prélevées les données
+
 df1259 = pd.read_csv("compilationFinale-1910-1959.csv")
 
 df6069 = pd.read_csv("compilationFinale-1960-1969.csv")
